@@ -38,6 +38,10 @@
        url('../fonts/lato-bold-webfont.woff2') format('woff2');
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 
