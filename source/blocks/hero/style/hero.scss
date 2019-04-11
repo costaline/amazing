@@ -1,0 +1,29 @@
+.hero {
+  // min-height: 900px;
+  padding-top: 360px;
+  padding-bottom: 275px;
+
+  background-image: url('../img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__slogan {
+  margin-bottom: 25px;
+
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: -1.8px;
+
+  &:first-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.hero__text {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 45px;
+  letter-spacing: -0.75px;
+}
