@@ -12,6 +12,7 @@
   height: 500px;
 
   background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
@@ -30,4 +31,34 @@
 
 .about__title {
   margin-bottom: 35px;
+}
+
+@media (max-width: $lg) {
+  .about__right {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+
+  .about__wrapper {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: $sm) {
+  .about {
+    display: block;
+  }
+
+  .about__left {
+    width: 100%;
+  }
+
+  .about__picture {
+    height: 300px;
+  }
+
+  .about__right {
+    width: 100%;
+    padding-bottom: 30px;
+  }
 }
