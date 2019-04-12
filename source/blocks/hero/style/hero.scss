@@ -5,7 +5,7 @@
 
   background-image: url('../img/hero-bg.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom right;
   background-size: cover;
 }
 
@@ -26,4 +26,16 @@
   font-weight: 300;
   line-height: 45px;
   letter-spacing: -0.75px;
+}
+
+@media (max-width: $lg) {
+  .hero {
+    min-height: 100vh;
+    padding-top: 30vh;
+  }
+
+  .hero__slogan {
+    margin-bottom: 100px;
+    font-size: 45px;
+  }
 }
