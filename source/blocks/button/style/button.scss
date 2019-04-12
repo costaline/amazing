@@ -38,4 +38,9 @@
       border-bottom: 9px solid transparent;
     }
   }
+
+  &:hover {
+    color: red;
+    border-color: red;
+  }
 }

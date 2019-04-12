@@ -93,8 +93,9 @@
 
   background-color: transparent;
   border: none;
-
   opacity: 0.4;
+
+  cursor: pointer;
 
   &::before {
     content: "";
@@ -126,5 +127,9 @@
     height: 4px;
 
     background-color: #ffffff;
+  }
+
+  &:hover {
+    opacity: 1;
   }
 }
