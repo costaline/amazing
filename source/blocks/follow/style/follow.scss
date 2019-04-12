@@ -1,0 +1,36 @@
+.follow__list {
+  margin-top: -3px;
+}
+
+.follow__item {
+  margin-bottom: 8px;
+}
+
+.follow__link {
+  padding-left: 32px;
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #919191;
+  font-weight: 700;
+  font-size: 14px;
+
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+
+  &--facebook {
+    background-position: 0 -1px;
+  }
+
+  &--twitter {
+    background-position: 0 -25px;
+  }
+
+  &--instagram {
+    background-position: 0 -49px;
+  }
+
+  &--spotify {
+    background-position: 0 -74px;
+  }
+}

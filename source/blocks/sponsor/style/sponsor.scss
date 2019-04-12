@@ -1,0 +1,21 @@
+.sponsor__list {
+  margin-top: -7px;
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-column-gap: 20px;
+}
+
+.sponsor__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+
+  font-family: 'Lato';
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  border: 1px solid #ffffff;
+} 
