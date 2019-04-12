@@ -44,3 +44,20 @@
     border-color: red;
   }
 }
+
+@media (max-width: $sm) {
+  .button {
+    padding: 13px 28px 10px 25px;
+    font-size: 15px;
+    border-radius: 28px;
+
+    &--green {
+      padding: 10px 40px 10px 15px;
+      border-radius: 25px;
+
+      &::after {
+        top: 8px;
+      }
+    }
+  }
+}
