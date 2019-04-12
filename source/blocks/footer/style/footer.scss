@@ -1,0 +1,55 @@
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  background-color: #212227;
+
+  & .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'hero contact subscribe'
+                        'hero follow sponsor';
+    grid-column-gap: 100px; 
+  }
+} 
+
+.footer__hero {
+  grid-area: hero;
+}
+
+.footer__contact {
+  grid-area: contact;
+}
+
+.footer__follow {
+  grid-area: follow;
+}
+
+.footer__subscribe {
+  grid-area: subscribe;
+}
+
+.footer__sponsor {
+  grid-area: sponsor;
+}
+
+.footer__title {
+  color: #f9f9f9;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer__text {
+  color: #919191;
+  font-family: "Fira Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.footer__input {
+  background-color: #909193;
+  opacity: 0.4;
+  border: none;
+}
