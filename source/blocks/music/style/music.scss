@@ -99,3 +99,78 @@
 .music__text {
   margin-bottom: 58px;
 }
+
+@media (max-width: $xl) {
+  .music__mock {
+    display: none;
+  }
+
+  .music__wrapper {
+    grid-area: 1 / 1 / 2 / 2;
+
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: $lg) {
+  .music {
+    grid-template-rows: 500px 350px;
+  }
+
+  .music__video {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+  }
+
+  .music__spotify {
+    padding-top: 38px;
+  }
+
+  .music__itunes {
+    padding-top: 38px;
+  }
+
+  .music__left {
+    padding-right: 10px;
+  }
+
+  .music__right {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: $md) {
+  .music {
+    display: block;
+    text-align: center;
+  }
+
+  .music__video {
+    display: block;
+    min-height: 350px;
+    background-image: none;
+    background-color: #212227;
+  }
+
+  .music__wrapper {
+    padding-top: 50px;
+  }
+
+  .music__left {
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+  .music__right {
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+  .music__spotify {
+    min-height: 300px;
+  }
+
+  .music__itunes {
+    min-height: 300px;
+  }
+}
