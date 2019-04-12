@@ -1,5 +1,5 @@
 .button {
-  padding: 22px 28px;
+  padding: 21px 28px 14px 25px;
 
   color: #f9f9f9;
   font-size: 18px;
@@ -12,9 +12,30 @@
   border: 2px solid #ffffff;
 
   &--green {
+    position: relative;
+
+    padding: 15px 40px 12px 15px;
+
     color: #2ebd59;
+    letter-spacing: normal;
 
     border-radius: 25px;
     border-color: #2ebd59;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      top: 14px;
+      right: 14px;
+
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+
+      border-left: 16px solid #2ebd59;
+      border-top: 9px solid transparent;
+      border-bottom: 9px solid transparent;
+    }
   }
 }
