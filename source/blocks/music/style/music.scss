@@ -79,14 +79,14 @@
 }
 
 .music__left {
-  width: 600px;
+  max-width: 600px;
   margin: 0 0 0 auto;
   padding-left: 10px;
   padding-right: 60px;
 }
 
 .music__right {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto 0 0;
   padding-left: 60px;
   padding-right: 10px;
